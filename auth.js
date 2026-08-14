@@ -26,7 +26,7 @@ function isLogged() {
 function logout() {
   localStorage.clear();
   window.location.href =
-    "https://coec-epb.github.io/Login-Leitura/";
+    "https://github.com/leituraepbenergisa-ui/Login-Leitura/";
 }
 
 async function authFetch(url, options = {}) {
@@ -54,7 +54,7 @@ async function authFetch(url, options = {}) {
     alert("🚫 USUÁRIO NÃO AUTORIZADO");
 
     // redireciona pro ADD
-    window.location.href = "https://coec-epb.github.io/ADD_Leitura/";
+    window.location.href = "https://github.com/leituraepbenergisa-ui/ADD_Leitura/";
     return resp;
   }
 
