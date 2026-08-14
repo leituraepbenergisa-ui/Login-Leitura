@@ -58,7 +58,7 @@ function isLogged() {
 
 function logout() {
   localStorage.clear();
-  window.location.href = "https://leituraepbenergisa-ui.github.io/Login-Leitura/";
+  window.location.href = "https://github.com/leituraepbenergisa-ui/Login-Leitura/";
 }
 
 function authHeaders() {
@@ -79,7 +79,7 @@ function usuarioAtual() {
 // ===============================
 function protegerPagina() {
   if (!isLogged()) {
-    window.location.href = "https://leituraepbenergisa-ui.github.io/Login-Leitura/";
+    window.location.href = "https://github.com/leituraepbenergisa-ui/Login-Leitura/";
     return false;
   }
 
