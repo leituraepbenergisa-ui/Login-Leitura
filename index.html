@@ -263,7 +263,7 @@
   <script src="auth.js"></script>
 <script>
   if (isLogged()) {
-  window.location.href = "https://github.com/leituraepbenergisa-ui/ADD_Leitura/";
+  window.location.href = "https://leituraepbenergisa-ui.github.io/ADD-Leitura/";
 }
 
 // guarda o token retornado do /recuperar_senha
@@ -317,7 +317,7 @@ async function logar() {
     // ✅ LOGIN NORMAL (CORRETO)
     setSession(data);
 
-    window.location.href = "https://github.com/leituraepbenergisa-ui/ADD_Leitura/";
+    window.location.href = "https://leituraepbenergisa-ui.github.io/ADD-Leitura/";
 
   } catch (err) {
     erro.innerText = "❌ Erro: " + err.message;
@@ -363,7 +363,7 @@ fecharModal("modalPrimeiroAcesso");
 
 alert("✅ Senha alterada com sucesso. Faça login novamente.");
 
-window.location.href = "https://github.com/leituraepbenergisa-ui/Login-Leitura/";
+window.location.href = "https://leituraepbenergisa-ui.github.io/Login-Leitura/";
 
 } catch (err) {
   erroSenha.innerText = "❌ Erro: " + err.message;
