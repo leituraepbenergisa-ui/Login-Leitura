@@ -27,7 +27,7 @@ function isLogged() {
 function logout() {
   localStorage.clear();
   window.location.href =
-    "https://github.com/leituraepbenergisa-ui/Login-Leitura";
+    "https://leituraepbenergisa-ui.github.io/Login-Leitura";
 }
 
 async function authFetch(url, options = {}) {
