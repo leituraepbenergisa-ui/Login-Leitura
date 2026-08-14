@@ -178,12 +178,12 @@
 </head>
 <body>
 
-<div class="login-card">
+<div class="-card">
   <div class="icon-box">
     <i class="bi bi-person-lock"></i>
   </div>
 
-  <h3>Login ADD</h3>
+  <h3> ADD</h3>
 
   <label>Matrícula:</label>
   <input type="text" id="matricula" placeholder="Digite sua matrícula">
@@ -260,10 +260,10 @@
     <p id="erroNova" class="msg"></p>
   </div>
 </div>
-<script src="https://leituraepbenergisa-ui/Login-Leitura/auth.js"></script>
+<script src="https://github.com/leituraepbenergisa-ui/Login-Leitura/auth.js"></script>
 <script>
   if (isLogged()) {
-  window.location.href = "https://leituraepbenergisa-ui/ADD_Leitura/";
+  window.location.href = "https://github.com/leituraepbenergisa-ui/Login-Leitura/ADD_Leitura/";
 }
 
 // guarda o token retornado do /recuperar_senha
@@ -317,7 +317,7 @@ async function logar() {
     // ✅ LOGIN NORMAL (CORRETO)
     setSession(data);
 
-    window.location.href = "https://leituraepbenergisa-ui/ADD_Leitura/";
+    window.location.href = "https://github.com/leituraepbenergisa-ui/Login-Leitura/ADD_Leitura/";
 
   } catch (err) {
     erro.innerText = "❌ Erro: " + err.message;
@@ -363,7 +363,7 @@ fecharModal("modalPrimeiroAcesso");
 
 alert("✅ Senha alterada com sucesso. Faça login novamente.");
 
-window.location.href = "https://leituraepbenergisa-ui/Login-Leitura/";
+window.location.href = "https://github.com/leituraepbenergisa-ui/Login-Leitura/Login-Leitura/";
 
 } catch (err) {
   erroSenha.innerText = "❌ Erro: " + err.message;
