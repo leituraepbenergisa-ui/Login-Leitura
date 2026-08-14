@@ -1,6 +1,6 @@
 // /js/auth.js
 
-const API = "https://add-decp.decpenergisa2026.workers.dev";
+const API = "https://add-leitura.leituraepbenergisa.workers.dev/";
 
 function getToken() {
   return localStorage.getItem("token");
@@ -26,7 +26,7 @@ function isLogged() {
 function logout() {
   localStorage.clear();
   window.location.href =
-    "https://coec-epb.github.io/LOGIN_DECP/";
+    "https://coec-epb.github.io/Login-Leitura/";
 }
 
 async function authFetch(url, options = {}) {
@@ -54,7 +54,7 @@ async function authFetch(url, options = {}) {
     alert("🚫 USUÁRIO NÃO AUTORIZADO");
 
     // redireciona pro ADD
-    window.location.href = "https://coec-epb.github.io/ADD_DECP/";
+    window.location.href = "https://coec-epb.github.io/ADD_Leitura/";
     return resp;
   }
 
